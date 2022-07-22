@@ -805,12 +805,10 @@ img {
   transition: transform var(--animation);
   transition: transform var(--animation), -webkit-transform var(--animation);
 }
-
 .backdrop.is-hidden .modal {
   -webkit-transform: translate(-50%, -50%) scale(0.9);
           transform: translate(-50%, -50%) scale(0.9);
 }
-
 .modal__close-btn {
   position: absolute;
   top: 8px;
@@ -829,14 +827,11 @@ img {
   transition: outline-color var(--animation), box-shadow var(--animation);
   transition: outline-color var(--animation), box-shadow var(--animation), -webkit-box-shadow var(--animation);
 }
-
-.modal__close-btn:hover,
-.modal__close-btn:focus {
+.modal__close-btn:hover, .modal__close-btn:focus {
   outline-color: var(--main-accent-color);
   -webkit-box-shadow: var(--modal-close-btn-box-shadow);
           box-shadow: var(--modal-close-btn-box-shadow);
 }
-
 .modal__close-btn-icon {
   position: absolute;
   top: 50%;
