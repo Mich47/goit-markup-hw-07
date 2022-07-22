@@ -53,6 +53,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-align: left;
   color: var(--main-light-color);
 }
 
@@ -67,25 +68,21 @@
 }
 
 .footer__form-input {
+  display: inline-block;
   min-width: 358px;
   margin-right: 9px;
   padding: 14px 15px;
 
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
 
   color: var(--subscribe-form-input-color);
-  background-color: transparent;
-  border: 1px solid var(--subscribe-form-input-border-color);
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
-  border-radius: 4px;
 
-  transition: border-color var(--animation);
+  border-color: var(--subscribe-form-input-border-color);
+  // filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
-.footer__form-input:focus {
-  border-color: var(--main-accent-color);
-  outline: none;
+.footer__form-input::placeholder {
+  color: var(--subscribe-form-input-color);
 }

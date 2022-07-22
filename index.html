@@ -430,10 +430,10 @@
             </li>
           </ul>
         </div>
-        <form class="footer__form footer__inner">
+        <form class="form footer__form footer__inner">
           <strong class="footer__title">Подпишитесь на рассылку</strong>
           <div class="footer__form-wrap">
-            <input class="footer__form-input" type="email" placeholder="E-mail" required>
+            <input class="form__input footer__form-input" type="email" placeholder="E-mail" required>
             <button class="button" type="submit">Подписаться
               <svg class="icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
@@ -488,21 +488,23 @@
           </div>
           <div class="form__field">
             <label class="form__label" for="textarea">Комментарий</label>
-            <textarea class="form__textarea" name="comment" id="textarea" rows="5" placeholder="Введите текст" required
-              minlength="3"></textarea>
+            <textarea class="form__input form__textarea" name="comment" id="textarea" rows="5"
+              placeholder="Введите текст" required minlength="3"></textarea>
           </div>
         </div>
-        <div class="form__checkbox-field">
-          <input class="form__checkbox-input visually-hidden" type="checkbox" name="checkbox" id="check">
-          <label class="form__label form__checkbox-label" for="check">
-            <span class="form__checkbox">
-              <svg class="form__checkbox-icon" width="13" height="13">
-                <use href="./images/icons.svg#icon-check">
-                </use>
-              </svg>
-            </span>
-            Соглашаюсь с рассылкой и принимаю <a class="link form__terms-link" href="#">Условия
-              договора</a></label>
+        <div class="form__checkbox">
+          <div class="checkbox">
+            <input class="checkbox__input visually-hidden" type="checkbox" name="checkbox" id="check">
+            <label class="form__label checkbox__label" for="check">
+              <span class="checkbox__custom">
+                <svg class="icon checkbox__icon" width="13" height="13">
+                  <use href="./images/icons.svg#icon-check">
+                  </use>
+                </svg>
+              </span>
+              Соглашаюсь с рассылкой и принимаю <a class="link form__terms-link" href="#">Условия
+                договора</a></label>
+          </div>
         </div>
         <button class="button" type="submit">Отправить</button>
       </form>
