@@ -5,16 +5,16 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-}
 
-.logo--blue {
-  color: var(--main-accent-color);
-}
+  &--blue {
+    color: var(--main-accent-color);
+  }
 
-.logo--light {
-  color: var(--main-light-color);
-}
+  &--light {
+    color: var(--main-light-color);
+  }
 
-.logo--dark {
-  color: var(--logo-font-dark);
+  &--dark {
+    color: var(--logo-font-dark);
+  }
 }
