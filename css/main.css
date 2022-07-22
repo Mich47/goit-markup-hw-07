@@ -94,12 +94,6 @@ img {
   overflow: hidden;
 }
 
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
 /* Button Styles */
 .button {
   display: -webkit-inline-box;
@@ -201,7 +195,6 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
-
 .container--flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -213,7 +206,6 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 .container__inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -269,7 +261,6 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  gap: unset;
 }
 
 .logo--blue {
@@ -594,7 +585,6 @@ img {
   -webkit-transition: visibility var(--animation), opacity var(--animation);
   transition: visibility var(--animation), opacity var(--animation);
 }
-
 .backdrop--is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -607,6 +597,7 @@ img {
   min-width: 528px;
   left: 50%;
   top: 50%;
+  padding: 40px;
   background-color: var(--main-light-color);
   -webkit-box-shadow: var(--modal-box-shadow);
           box-shadow: var(--modal-box-shadow);
@@ -769,8 +760,6 @@ img {
 
 /* Form Styles */
 .form {
-  position: relative;
-  padding: 40px;
   text-align: center;
 }
 
@@ -947,6 +936,7 @@ img {
 }
 
 .form__terms-link {
+  font-weight: 400;
   text-decoration: underline;
   color: var(--main-accent-color);
 }

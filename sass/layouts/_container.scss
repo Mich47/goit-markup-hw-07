@@ -4,17 +4,17 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-}
 
-.container--flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+  &--flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-.container__inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 90px;
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+  }
 }
