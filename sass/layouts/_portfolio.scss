@@ -1,9 +1,11 @@
 /* Portfolio Styles */
 
-.portfolio__filter-list {
-  justify-content: center;
-  gap: 8px;
-  margin-bottom: 50px;
+.portfolio {
+  &__filter-list {
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+  }
 }
 
 .portfolio__filter-btn {
@@ -17,16 +19,16 @@
 
   color: var(--main-font-color);
   background-color: var(--section-background-color);
-}
 
-.portfolio__filter-btn:hover,
-.portfolio__filter-btn:focus {
-  color: var(--main-light-color);
-  box-shadow: var(--filter-btn-box-shadow);
-}
+  &:hover,
+  &:focus {
+    color: var(--main-light-color);
+    box-shadow: var(--filter-btn-box-shadow);
+  }
 
-.portfolio__filter-btn--active {
-  color: var(--main-light-color);
-  box-shadow: var(--filter-btn-box-shadow);
-  background-color: var(--btn-background-color);
+  &--active {
+    color: var(--main-light-color);
+    box-shadow: var(--filter-btn-box-shadow);
+    background-color: var(--btn-background-color);
+  }
 }
