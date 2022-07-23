@@ -19,12 +19,12 @@
   border: 0;
 
   transition: color var(--animation), background-color var(--animation), box-shadow var(--animation);
-}
 
-.button:hover,
-.button:focus {
-  outline-color: var(--btn-background-hover);
-  background-color: var(--btn-background-hover);
-  box-shadow: var(--btn-box-shadow);
-  cursor: pointer;
+  &:hover,
+  &:focus {
+    outline-color: var(--btn-background-hover);
+    background-color: var(--btn-background-hover);
+    box-shadow: var(--btn-box-shadow);
+    cursor: pointer;
+  }
 }

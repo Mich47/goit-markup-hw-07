@@ -1,8 +1,10 @@
 /* Social Link Styles */
 
-.social__list {
-  justify-content: center;
-  gap: 10px;
+.social {
+  &__list {
+    justify-content: center;
+    gap: 10px;
+  }
 }
 
 .social__link {
@@ -13,10 +15,10 @@
 
   color: var(--social-link-color);
   border-radius: 50%;
-}
 
-.social__link:hover,
-.social__link:focus {
-  color: var(--main-light-color);
-  background-color: var(--btn-background-color);
+  &:hover,
+  &:focus {
+    color: var(--main-light-color);
+    background-color: var(--btn-background-color);
+  }
 }

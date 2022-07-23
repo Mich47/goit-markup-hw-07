@@ -11,11 +11,13 @@
   border: 1px solid;
   border-color: var(--social-link-color);
   border-radius: 4px;
-}
 
-.client-link:hover,
-.client-link:focus {
-  color: var(--main-accent-color);
-  border: 1px solid;
-  border-color: var(--main-accent-color);
+  transition: color var(--animation), border-color var(--animation);
+
+  &:hover,
+  &:focus {
+    color: var(--main-accent-color);
+    border: 1px solid;
+    border-color: var(--main-accent-color);
+  }
 }
