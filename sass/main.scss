@@ -8,7 +8,7 @@
 @import './components/button';
 @import './components/link';
 @import './components/section';
-@import './components/grid';
+@import './layouts/grid';
 @import './components/title';
 @import './components/subtitle';
 @import './components/form';
@@ -34,5 +34,5 @@
 
 //Portfolio.html
 
-@import './layouts/portfolio';
+@import './components/portfolio';
 @import './components/project-card';
